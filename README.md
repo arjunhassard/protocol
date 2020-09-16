@@ -4,7 +4,9 @@ Following mainnet launch, the NuCypher protocol – which governs participation 
 
 The following list introduces open, protocol-related research topics in rough order of priority. **If you intend to make a formal upgrade proposal that pertains to one of these topics, it is strongly recommended that you familiarize yourself with the 'upstream' research, discussion, empirical analysis and context hosted in this repository.** To view and discuss downstream proposals, that typically correspond to an open PR, head to [NuCypher's DAO Forum](https://dao.nucypher.com/).
 
+
 1. **Pricing development**
+
 _Includes pricing structure, price points, free market dynamics and commercial engagement_.
 
 At launch, the definition of a service unit (users charged per sharing policy, per period) will be universal, while the cost (_price point_) will fall within a global fee range, applied to all engagements between service-provider and user. However, both the service unit and price point may diversify over time through individual service-provider strategies and collective reactions to demand trends (e.g. widening the global fee range through governance). Furthermore, the protocol can facilitate or constrain the network's free market in other ways, for example via mechanisms enabling users to efficiently discover prices, or by providing a choice of service unit definitions to service-providers. 
@@ -16,7 +18,8 @@ Official references:
 Relevant Issues/PRs:
 - [NuCypher’s “free market”](https://github.com/nucypher/protocol/issues/14)
 - [Default price range in PolicyManager](https://github.com/nucypher/nucypher/issues/1567)
-- [https://github.com/nucypher/protocol/issues/7](https://github.com/nucypher/protocol/issues/7)
+- [Pricing structure (what is paid work?)](https://github.com/nucypher/protocol/issues/7)
+
 
 2. **Slashing conditions and penalty calculation**
 
@@ -28,6 +31,7 @@ Official references:
 Relevant Issues/PRs: 
 - [Calculating the slashing penalty](https://github.com/nucypher/protocol/issues/12)
 - [Proposal: set slashing coefficients to almost zero](https://github.com/nucypher/nucypher/pull/1951)
+
 
 3. **Subsidies and service quality** 
 
@@ -50,6 +54,7 @@ Relevant Issues/PRs:
 - [A skeleton-logic proposal for another economic model of grant (probabilistic micropayments)](https://github.com/nucypher/protocol/issues/15)
 - [Proposal: Policy owner <> Policy sponsor separation](https://github.com/nucypher/nucypher/issues/1492)
 
+
 5. **Service-provider selection conditions**
 
 The probability with which a service-provider is selected for a job can be leveraged as a low-risk nudge towards good behavior. 
@@ -58,6 +63,6 @@ Relevant Issues/PRs:
 - [Simplify staker sampling](https://github.com/nucypher/nucypher/pull/2056)
 - [Advanced worker selection conditions (sampling algorithm)](https://github.com/nucypher/protocol/issues/9)
 
-In addition to perusing the links above, we recommend searching (using keywords) for discussions in our public Discord channels – in particular, to check if a question you have has already been answered. Note that _service-providers_ are referred to as 'Ursulas', 'stakers', 'workers' and 'proxies' in NuCypher repositories and channels.
+In addition to perusing the links above, we recommend searching (using keywords) for discussions in our public Discord channels – in particular, to check if a question you have has already been answered. Note that _service-providers_ are also referred to as 'Ursulas', 'stakers', 'workers' and 'proxies' in NuCypher repositories and channels.
 
-The [mint paper](https://github.com/nucypher/protocol/tree/master/mint_paper/Mint_Paper_Protocol_Objectives.pdf) is not up to date and serves as a record of historical design objectives.
+Note that the mint paper is not up to date and serves as a record of historical design objectives.
